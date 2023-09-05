@@ -1,0 +1,580 @@
+{
+    "0": {
+      "name": "Italian",
+      "colors": [
+        "0xFF0E21A0",
+        "0xFFEC53B0"
+      ],
+      "recipes": [
+        {
+          "name": "Spaghetti Aglio e Olio",
+          "ingredients": [
+            "8 oz (225g) spaghetti",
+            "4 cloves garlic, thinly sliced",
+            "1/4 cup extra-virgin olive oil",
+            "1/4 tsp red pepper flakes (optional)",
+            "Salt and freshly ground black pepper",
+            "Fresh parsley, chopped (for garnish)"
+          ],
+          "instructions": "Cook spaghetti according to package instructions until al dente. Drain and set aside. In a pan, heat olive oil over low heat. Add garlic and red pepper flakes (if using). Cook until the garlic is fragrant but not browned, about 2 minutes. Add cooked spaghetti to the pan and toss to coat with the garlic-infused oil.Season with salt and black pepper. Garnish with chopped fresh parsley. Serve hot."
+        },
+        {
+          "name": "Margherita Pizza",
+          "ingredients": [
+            "Pizza dough (store-bought or homemade)",
+            "1/2 cup tomato sauce",
+            "1 1/2 cups mozzarella cheese, shredded",
+            "Fresh basil leaves",
+            "Extra-virgin olive oil",
+            "Salt and pepper to taste"
+          ],
+          "instructions": "Preheat your oven to the highest temperature it can go (usually around 500°F or 260°C). Roll out the pizza dough on a floured surface to your desired thickness. Place the dough on a pizza stone or baking sheet. Spread tomato sauce over the dough and sprinkle with mozzarella cheese. Season with salt and pepper. Bake in the preheated oven until the crust is golden and the cheese is bubbly and slightly browned, about 10-12 minutes. Remove from the oven, top with fresh basil leaves, and drizzle with olive oil before serving."
+        },
+        {
+          "name": "Caprese Salad",
+          "ingredients": [
+            "Fresh tomatoes, sliced",
+            "Fresh mozzarella cheese, sliced",
+            "Fresh basil leaves",
+            "Extra-virgin olive oil",
+            "Balsamic vinegar (optional)",
+            "Salt and black pepper to taste"
+          ],
+          "instructions": "Arrange alternating slices of tomato and mozzarella on a serving platter. Tuck fresh basil leaves between the tomato and mozzarella slices. Drizzle with extra-virgin olive oil and balsamic vinegar (if using). Season with salt and black pepper. Serve as a refreshing salad."
+        },
+        {
+          "name": "Pasta Carbonara",
+          "ingredients": [
+            "8 oz (225g) spaghetti or fettuccine",
+            "2 large eggs",
+            "1 cup grated Pecorino Romano cheese",
+            "4 oz (115g) pancetta or guanciale, diced",
+            "2 cloves garlic, minced",
+            "Salt and black pepper to taste",
+            "Fresh parsley, chopped (for garnish)"
+          ],
+          "instructions": "Cook pasta according to package instructions until al dente. Reserve about 1/2 cup of pasta water, then drain the pasta. In a bowl, whisk together eggs and grated cheese. Season with black pepper. In a pan, cook pancetta or guanciale over medium heat until it becomes crispy. Add minced garlic and cook for another minute. Add the cooked pasta to the pan with the pancetta and garlic. Remove from heat. Quickly pour the egg and cheese mixture over the hot pasta, tossing it well to create a creamy sauce. If needed, add a bit of reserved pasta water to achieve the desired consistency. Garnish with chopped parsley and additional cheese. Serve immediately."
+        },
+        {
+          "name": "Bruschetta",
+          "ingredients": [
+            "Baguette or Italian bread, sliced",
+            "Ripe tomatoes, diced",
+            "Fresh basil leaves, chopped",
+            "Garlic cloves, peeled",
+            "Extra-virgin olive oil",
+            "Balsamic vinegar (optional)",
+            "Salt and black pepper to taste"
+          ],
+          "instructions": "Toast the bread slices in the oven or on a grill until they're lightly browned. Rub each slice with a garlic clove for extra flavor. In a bowl, combine diced tomatoes and chopped basil. Drizzle with olive oil and balsamic vinegar (if using). Season the tomato mixture with salt and black pepper. Spoon the tomato mixture onto the toasted bread slices. Serve as an appetizer or snack."
+        },
+        {
+          "name": "Minestrone Soup",
+          "ingredients": [
+            "1 tbsp olive oil",
+            "1 onion, chopped",
+            "2 carrots, diced",
+            "2 celery stalks, diced",
+            "2 cloves garlic, minced",
+            "1 can (14 oz) diced tomatoes",
+            "6 cups vegetable broth",
+            "1 cup small pasta (e.g., ditalini)",
+            "1 can (15 oz) kidney beans, drained and rinsed",
+            "2 cups chopped spinach or kale",
+            "1 tsp dried Italian seasoning (or a mix of basil, oregano, thyme)",
+            "Salt and pepper to taste",
+            "Grated Parmesan cheese (optional)"
+          ],
+          "instructions": "In a large pot, heat olive oil over medium heat. Add chopped onion, carrots, celery, and garlic. Sauté for about 5 minutes until the vegetables begin to soften. Add diced tomatoes and Italian seasoning. Cook for another 2 minutes. Pour in vegetable broth and bring to a boil. Reduce heat and let simmer for 15 minutes. Add pasta and cook until al dente, following package instructions. Stir in kidney beans and chopped spinach or kale. Simmer until the greens are wilted and the beans are heated through. Season with salt and pepper to taste. Serve hot, optionally topped with grated Parmesan cheese."
+        }
+      ]
+    },
+    "1": {
+      "name": "Chinese",
+      "colors": [
+        "0xFF191D88",
+        "0xFF337CCF"
+      ],
+      "recipes": [
+        {
+          "name": "Fried Rice",
+          "ingredients": [
+            "2 cups cooked rice, cold",
+            "2 eggs, beaten",
+            "1 cup mixed vegetables (peas, carrots, corn)",
+            "2 cloves garlic, minced",
+            "2 tbsp soy sauce",
+            "2 tbsp vegetable oil",
+            "Salt and white pepper to taste",
+            "Green onions, chopped (for garnish)"
+          ],
+          "instructions": "Heat vegetable oil in a large pan or wok over medium-high heat. Add minced garlic and stir-fry for a few seconds. Push the garlic to one side and pour beaten eggs into the pan. Scramble the eggs until they're cooked through. Add mixed vegetables and stir-fry for a few minutes. Add cold cooked rice and stir-fry, breaking up any clumps. Drizzle soy sauce over the rice and continue to stir-fry until everything is well combined and heated through. Season with salt and white pepper. Garnish with chopped green onions before serving."
+        },
+        {
+          "name": "Kung Pao Chicken",
+          "ingredients": [
+            "1 lb (450g) boneless chicken, diced",
+            "1/2 cup roasted peanuts",
+            "2 tbsp vegetable oil",
+            "2 cloves garlic, minced",
+            "1/2 cup diced bell peppers",
+            "1/2 cup diced onions",
+            "2 tbsp soy sauce",
+            "1 tbsp rice vinegar",
+            "1 tbsp hoisin sauce",
+            "1 tsp sugar",
+            "1 tsp red pepper flakes (adjust to taste)",
+            "Salt to taste",
+            "Sliced green onions (for garnish)"
+          ],
+          "instructions": "In a bowl, mix together soy sauce, rice vinegar, hoisin sauce, sugar, and red pepper flakes. Heat vegetable oil in a wok or pan over high heat. Add diced chicken and stir-fry until cooked through. Remove chicken from the pan. In the same pan, add minced garlic, diced bell peppers, and onions. Stir-fry for a few minutes until they start to soften. Return the cooked chicken to the pan. Pour the sauce over the chicken and vegetables. Stir-fry until everything is coated and heated through. Stir in roasted peanuts. Season with salt if needed. Garnish with sliced green onions before serving."
+        },
+        {
+          "name": "Sweet and Sour Pork",
+          "ingredients": [
+            "1 lb (450g) pork tenderloin, cut into bite-sized pieces",
+            "1 cup bell peppers, diced",
+            "1 cup pineapple chunks",
+            "1/2 cup onion, diced",
+            "1/2 cup carrot, diced",
+            "1/4 cup ketchup",
+            "2 tbsp rice vinegar",
+            "2 tbsp sugar",
+            "1 tbsp soy sauce",
+            "1/4 cup water",
+            "2 tbsp vegetable oil",
+            "Salt and pepper to taste",
+            "Sesame seeds (for garnish, optional)"
+          ],
+          "instructions": "In a bowl, whisk together ketchup, rice vinegar, sugar, soy sauce, and water to make the sweet and sour sauce. Heat vegetable oil in a pan or wok over high heat. Add diced pork and stir-fry until browned and cooked through. Remove pork from the pan. In the same pan, add diced bell peppers, pineapple chunks, diced onion, and diced carrot. Stir-fry for a few minutes until they start to soften. Return the cooked pork to the pan. Pour the sweet and sour sauce over the pork and vegetables. Stir-fry until everything is coated and heated through. Season with salt and pepper to taste. Garnish with sesame seeds if desired before serving."
+        },
+        {
+          "name": "Egg Drop Soup",
+          "ingredients": [
+            "4 cups chicken or vegetable broth",
+            "2 eggs, beaten",
+            "2 green onions, chopped",
+            "1/2 tsp ginger, grated",
+            "1 tbsp soy sauce",
+            "Salt and white pepper to taste",
+            "Cornstarch slurry (optional, for thickening)"
+          ],
+          "instructions": "In a pot, bring the chicken or vegetable broth to a simmer over medium heat. Add grated ginger and soy sauce to the broth. Season with salt and white pepper. If desired, thicken the soup with a cornstarch slurry (mix cornstarch with water and stir into the soup). While stirring the soup gently in a circular motion, slowly pour beaten eggs into the soup to create egg ribbons. Cook for another minute. Garnish with chopped green onions before serving."
+        },
+        {
+          "name": "Beef with Broccoli",
+          "ingredients": [
+            "1 lb (450g) flank steak, thinly sliced",
+            "3 cups broccoli florets",
+            "2 cloves garlic, minced",
+            "1/2 cup soy sauce",
+            "1/4 cup brown sugar",
+            "1/4 cup water",
+            "2 tbsp cornstarch",
+            "2 tbsp vegetable oil",
+            "Salt and black pepper to taste",
+            "Sesame seeds (for garnish, optional)"
+          ],
+          "instructions": "In a bowl, whisk together soy sauce, brown sugar, water, and cornstarch to make the sauce. Heat vegetable oil in a pan or wok over high heat. Add thinly sliced flank steak and stir-fry until browned. Remove the beef from the pan. In the same pan, add minced garlic and broccoli florets. Stir-fry for a few minutes until the broccoli begins to soften. Return the cooked beef to the pan. Pour the sauce over the beef and broccoli. Stir-fry until the sauce thickens and coats everything. Season with salt and black pepper. Garnish with sesame seeds if desired before serving."
+        },
+        {
+          "name": "Hot and Sour Soup",
+          "ingredients": [
+            "4 cups chicken or vegetable broth",
+            "4 oz (115g) tofu, diced",
+            "2 eggs, beaten",
+            "2 tbsp soy sauce",
+            "2 tbsp rice vinegar",
+            "1 tsp sesame oil",
+            "1 tsp chili garlic sauce (adjust to taste)",
+            "1/2 cup mushrooms, sliced",
+            "1/2 cup bamboo shoots, sliced",
+            "1/4 cup green peas",
+            "Salt and white pepper to taste",
+            "Sliced green onions (for garnish)"
+          ],
+          "instructions": "In a pot, bring the chicken or vegetable broth to a simmer over medium heat. Add diced tofu, sliced mushrooms, sliced bamboo shoots, and green peas to the broth. In a bowl, mix together soy sauce, rice vinegar, sesame oil, and chili garlic sauce. Pour this mixture into the soup. Season with salt and white pepper. While stirring the soup gently in a circular motion, slowly pour beaten eggs into the soup to create egg ribbons. Cook for another minute. Garnish with sliced green onions before serving."
+        }
+      ]
+    },
+    "2": {
+      "name": "Mexican",
+      "colors": [
+        "0xFFC70039",
+        "0xFFF8DE22"
+      ],
+      "recipes": [
+        {
+          "name": "Tacos",
+          "ingredients": [
+            "1 lb (450g) ground beef or shredded chicken",
+            "1 packet taco seasoning mix",
+            "8 small tortillas",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "1 cup shredded cheese",
+            "Sour cream (optional)",
+            "Salsa (optional)",
+            "Sliced jalapeños (optional)",
+            "Chopped cilantro (optional)"
+          ],
+          "instructions": "Cook ground beef or shredded chicken in a pan over medium heat. Add taco seasoning mix and follow package instructions. Warm tortillas in a dry skillet or microwave. Place cooked meat, shredded lettuce, diced tomatoes, and shredded cheese on each tortilla. Add optional toppings like sour cream, salsa, sliced jalapeños, and chopped cilantro. Fold the tortillas and serve as tacos."
+        },
+        {
+          "name": "Guacamole",
+          "ingredients": [
+            "2 ripe avocados",
+            "1 small onion, finely chopped",
+            "1-2 cloves garlic, minced",
+            "1-2 tomatoes, diced",
+            "1 lime, juiced",
+            "Salt and pepper to taste",
+            "Fresh cilantro, chopped (optional)",
+            "Sliced jalapeños (optional)"
+          ],
+          "instructions": "Cut avocados in half, remove the pits, and scoop out the flesh into a bowl. Mash the avocados with a fork or potato masher. Add finely chopped onion, minced garlic, diced tomatoes, and lime juice. Mix well. Season with salt and pepper to taste. Add optional ingredients like fresh cilantro and sliced jalapeños for extra flavor. Serve with tortilla chips or as a topping for tacos."
+        },
+        {
+          "name": "Chicken Quesadillas",
+          "ingredients": [
+            "2 cups cooked chicken, shredded",
+            "1 cup shredded cheese (e.g., cheddar or Monterey Jack)",
+            "4 large flour tortillas",
+            "1/2 cup diced bell peppers",
+            "1/2 cup diced onions",
+            "Sour cream (optional)",
+            "Salsa (optional)"
+          ],
+          "instructions": "Place a flour tortilla on a flat surface. Sprinkle shredded cheese evenly over half of the tortilla. Add shredded chicken, diced bell peppers, and diced onions. Fold the tortilla in half to cover the filling. Heat a non-stick skillet over medium-high heat. Place the filled tortilla in the skillet and cook until the cheese is melted and the tortilla is golden brown, about 2-3 minutes per side. Repeat with the remaining tortillas and filling. Slice into wedges and serve with sour cream and salsa if desired."
+        },
+        {
+          "name": "Salsa",
+          "ingredients": [
+            "4-5 ripe tomatoes, diced",
+            "1 small onion, finely chopped",
+            "2-3 cloves garlic, minced",
+            "1-2 jalapeño peppers, finely chopped (remove seeds for milder salsa)",
+            "Juice of 1 lime",
+            "Salt and pepper to taste",
+            "Fresh cilantro, chopped (optional)"
+          ],
+          "instructions": "In a bowl, combine diced tomatoes, finely chopped onion, minced garlic, and finely chopped jalapeño peppers. Squeeze the juice of one lime over the mixture. Season with salt and pepper to taste. Add fresh cilantro for extra flavor, if desired. Mix well and refrigerate for at least 30 minutes before serving."
+        },
+        {
+          "name": "Nachos",
+          "ingredients": [
+            "Tortilla chips",
+            "1 cup shredded cheese (e.g., cheddar or Monterey Jack)",
+            "1/2 cup diced tomatoes",
+            "1/4 cup sliced black olives",
+            "1/4 cup sliced jalapeños",
+            "Sour cream (optional)",
+            "Salsa (optional)",
+            "Guacamole (optional)"
+          ],
+          "instructions": "Arrange tortilla chips on a baking sheet. Sprinkle shredded cheese evenly over the chips. Add diced tomatoes, sliced black olives, and sliced jalapeños on top. Place the baking sheet in the oven and broil until the cheese is melted and bubbly, about 2-3 minutes. Watch carefully to prevent burning. Serve hot with optional toppings like sour cream, salsa, and guacamole."
+        },
+        {
+          "name": "Enchiladas",
+          "ingredients": [
+            "1 lb (450g) ground beef or shredded chicken",
+            "1 packet enchilada sauce mix",
+            "8 small tortillas",
+            "1 cup shredded cheese (e.g., cheddar or Monterey Jack)",
+            "1/2 cup diced onions",
+            "Sour cream (optional)",
+            "Sliced black olives (optional)",
+            "Chopped cilantro (optional)"
+          ],
+          "instructions": "Cook ground beef or shredded chicken in a pan over medium heat. Add enchilada sauce mix and follow package instructions. Warm tortillas in a dry skillet or microwave. Place a small amount of cooked meat, shredded cheese, and diced onions on each tortilla. Roll up the tortillas and place them seam-side down in a baking dish. Pour any remaining sauce over the enchiladas. Bake in the oven at 350°F (175°C) for about 15-20 minutes, or until the cheese is melted and bubbly. Serve with optional toppings like sour cream, sliced black olives, and chopped cilantro."
+        }
+      ]
+    },
+    "3": {
+      "name": "Indian",
+      "colors": [
+        "0xFF060047",
+        "0xFFFF5F9E"
+      ],
+      "recipes": [
+        {
+          "name": "Chicken Curry",
+          "ingredients": [
+            "1 lb (450g) chicken pieces",
+            "1 onion, finely chopped",
+            "2 tomatoes, diced",
+            "2 cloves garlic, minced",
+            "1-inch piece of ginger, grated",
+            "2 tbsp curry powder",
+            "1/2 cup yogurt",
+            "2 tbsp vegetable oil",
+            "Salt and pepper to taste",
+            "Fresh cilantro, chopped (for garnish)"
+          ],
+          "instructions": "Heat vegetable oil in a pan over medium heat. Add finely chopped onions and sauté until they turn golden brown. Add minced garlic and grated ginger, and sauté for another 2 minutes. Add chicken pieces and cook until they turn white. Add curry powder and diced tomatoes. Cook until tomatoes are soft and oil starts to separate from the mixture. Stir in yogurt and simmer until the chicken is cooked through. Season with salt and pepper. Garnish with chopped cilantro before serving."
+        },
+        {
+          "name": "Vegetable Biryani",
+          "ingredients": [
+            "1 cup basmati rice",
+            "2 cups mixed vegetables (e.g., carrots, peas, beans)",
+            "1 onion, thinly sliced",
+            "2 cloves garlic, minced",
+            "1-inch piece of ginger, grated",
+            "2 tsp biryani spice mix",
+            "1/4 cup yogurt",
+            "2 tbsp vegetable oil",
+            "Salt to taste",
+            "Fresh mint leaves (for garnish)"
+          ],
+          "instructions": "Wash and soak basmati rice in water for 30 minutes, then drain. Heat vegetable oil in a pan over medium heat. Add thinly sliced onions and sauté until they turn golden brown. Add minced garlic and grated ginger, and sauté for another 2 minutes. Add mixed vegetables and sauté for a few minutes. Stir in biryani spice mix. Add drained rice and sauté for a few minutes until the rice is coated with spices. Add yogurt and mix well. Add enough water to cook the rice (usually 2 cups), and season with salt. Cover and simmer until the rice is cooked and the water is absorbed. Garnish with fresh mint leaves before serving."
+        },
+        {
+          "name": "Chana Masala",
+          "ingredients": [
+            "2 cups cooked chickpeas",
+            "1 onion, finely chopped",
+            "2 tomatoes, diced",
+            "2 cloves garlic, minced",
+            "1-inch piece of ginger, grated",
+            "2 tsp garam masala",
+            "1 tsp ground cumin",
+            "2 tbsp vegetable oil",
+            "Salt and pepper to taste",
+            "Fresh cilantro, chopped (for garnish)"
+          ],
+          "instructions": "Heat vegetable oil in a pan over medium heat. Add finely chopped onions and sauté until they turn golden brown. Add minced garlic and grated ginger, and sauté for another 2 minutes. Add diced tomatoes and cook until they are soft. Stir in garam masala and ground cumin. Add cooked chickpeas and simmer until the flavors meld together. Season with salt and pepper. Garnish with chopped cilantro before serving."
+        },
+        {
+          "name": "Paneer Tikka",
+          "ingredients": [
+            "1 block of paneer, cut into cubes",
+            "1/2 cup yogurt",
+            "1 tsp ginger-garlic paste",
+            "1 tsp tandoori spice mix",
+            "1 tsp lemon juice",
+            "2 tbsp vegetable oil",
+            "Salt and pepper to taste",
+            "Sliced bell peppers and onions (optional, for skewers)",
+            "Fresh cilantro (for garnish)"
+          ],
+          "instructions": "In a bowl, mix yogurt, ginger-garlic paste, tandoori spice mix, lemon juice, vegetable oil, salt, and pepper to make the marinade. Add paneer cubes and marinate for at least 30 minutes. If using skewers, thread the marinated paneer and sliced bell peppers and onions onto skewers. Grill or bake until the paneer is lightly charred. Garnish with fresh cilantro before serving."
+        },
+        {
+          "name": "Dal Tadka",
+          "ingredients": [
+            "1 cup split yellow lentils (moong dal)",
+            "1 onion, finely chopped",
+            "2 tomatoes, diced",
+            "2 cloves garlic, minced",
+            "1-inch piece of ginger, grated",
+            "1 tsp turmeric powder",
+            "1 tsp cumin seeds",
+            "2 tbsp ghee or vegetable oil",
+            "Salt and pepper to taste",
+            "Fresh cilantro, chopped (for garnish)"
+          ],
+          "instructions": "Wash and cook split yellow lentils in water until they are soft and mushy. In a separate pan, heat ghee or vegetable oil over medium heat. Add cumin seeds and sauté until they start to splutter. Add finely chopped onions and sauté until they turn translucent. Add minced garlic and grated ginger, and sauté for another 2 minutes. Add diced tomatoes and cook until they are soft. Stir in turmeric powder and cooked lentils. Simmer for a few minutes to blend the flavors. Season with salt and pepper. Garnish with chopped cilantro before serving."
+        },
+        {
+          "name": "Aloo Paratha",
+          "ingredients": [
+            "2 cups whole wheat flour",
+            "2 potatoes, boiled and mashed",
+            "1 tsp cumin seeds",
+            "1/2 tsp turmeric powder",
+            "1/2 tsp red chili powder",
+            "2 tbsp ghee or vegetable oil",
+            "Salt to taste",
+            "Chopped fresh coriander leaves (for garnish)"
+          ],
+          "instructions": "In a bowl, mix whole wheat flour with water to make a soft dough. Divide the dough into small portions and roll them into balls. In another bowl, mix mashed potatoes with cumin seeds, turmeric powder, red chili powder, ghee or oil, and salt. Flatten a dough ball and place a portion of the potato mixture in the center. Seal the edges and roll it out into a paratha. Heat a griddle or skillet over medium-high heat and cook the paratha with ghee or oil until both sides are golden brown. Garnish with chopped coriander leaves before serving."
+        }
+      ]
+    },
+    "4": {
+      "name": "French",
+      "colors": [
+        "0xFF5800FF",
+        "0xFF72FFFF"
+      ],
+      "recipes": [
+        {
+          "name": "French Onion Soup",
+          "ingredients": [
+            "4 large onions, thinly sliced",
+            "4 cups beef broth",
+            "2 tbsp butter",
+            "2 tbsp olive oil",
+            "1 tsp sugar",
+            "1/2 cup white wine (optional)",
+            "Salt and black pepper to taste",
+            "Baguette slices",
+            "Grated Gruyère cheese"
+          ],
+          "instructions": "In a large pot, melt butter and olive oil over medium heat. Add thinly sliced onions and cook until caramelized, about 30-40 minutes. Sprinkle sugar over the onions to aid in caramelization. Stir occasionally. Add white wine (if using) and cook until mostly evaporated. Pour in beef broth and bring to a simmer. Season with salt and black pepper. Toast baguette slices. Ladle the soup into oven-safe bowls, place a toasted baguette slice on top, and sprinkle with grated Gruyère cheese. Broil until the cheese is bubbly and golden brown. Serve hot."
+        },
+        {
+          "name": "Coq au Vin",
+          "ingredients": [
+            "4 chicken legs (thighs and drumsticks)",
+            "8 oz (225g) button mushrooms",
+            "4 slices bacon, chopped",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 cup red wine",
+            "1 cup chicken broth",
+            "2 tbsp all-purpose flour",
+            "2 tbsp butter",
+            "2 tbsp vegetable oil",
+            "Salt and black pepper to taste",
+            "Fresh parsley (for garnish)"
+          ],
+          "instructions": "In a large skillet, cook bacon until crispy. Remove bacon and set aside. In the same skillet, brown chicken legs in bacon fat and vegetable oil over medium-high heat. Remove chicken and set aside. In the same skillet, add butter and chopped onion. Sauté until onion is translucent. Add minced garlic and cook for another minute. Stir in flour and cook for 2-3 minutes. Pour in red wine and chicken broth, stirring to create a sauce. Return chicken to the skillet. Add cooked bacon and button mushrooms. Cover and simmer until chicken is cooked through, about 30-40 minutes. Season with salt and black pepper. Garnish with fresh parsley before serving."
+        },
+        {
+          "name": "Ratatouille",
+          "ingredients": [
+            "1 eggplant, diced",
+            "2 zucchinis, diced",
+            "1 red bell pepper, diced",
+            "1 yellow bell pepper, diced",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "2 tomatoes, diced",
+            "2 tbsp olive oil",
+            "1 tsp dried thyme",
+            "Salt and black pepper to taste",
+            "Fresh basil leaves (for garnish)"
+          ],
+          "instructions": "In a large pan, heat olive oil over medium heat. Add chopped onion and sauté until translucent. Add minced garlic and cook for another minute. Add diced eggplant, zucchinis, red bell pepper, and yellow bell pepper. Sauté until vegetables start to soften. Stir in diced tomatoes and dried thyme. Simmer until vegetables are tender, about 20-30 minutes. Season with salt and black pepper. Garnish with fresh basil leaves before serving."
+        },
+        {
+          "name": "Quiche Lorraine",
+          "ingredients": [
+            "1 pre-made pie crust",
+            "6 slices bacon, cooked and crumbled",
+            "1 cup shredded Gruyère cheese",
+            "1 cup heavy cream",
+            "3 eggs",
+            "Salt and white pepper to taste",
+            "Ground nutmeg (optional)"
+          ],
+          "instructions": "Preheat oven to 375°F (190°C). Place the pre-made pie crust in a pie dish. Sprinkle bacon and shredded Gruyère cheese evenly over the crust. In a bowl, whisk together heavy cream, eggs, salt, and white pepper. Pour this mixture over the bacon and cheese. If desired, sprinkle with a pinch of ground nutmeg. Bake in the preheated oven for 30-35 minutes or until the quiche is set and golden brown. Let it cool slightly before serving."
+        },
+        {
+          "name": "Beef Bourguignon",
+          "ingredients": [
+            "2 lbs (900g) beef stew meat, cubed",
+            "2 cups red wine (preferably Burgundy)",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "4 carrots, sliced",
+            "2 cups beef broth",
+            "2 tbsp tomato paste",
+            "2 tbsp all-purpose flour",
+            "2 tbsp olive oil",
+            "2 bay leaves",
+            "Salt and black pepper to taste",
+            "Fresh parsley (for garnish)"
+          ],
+          "instructions": "In a large pot, heat olive oil over medium-high heat. Add cubed beef and brown on all sides. Remove beef and set aside. In the same pot, add chopped onion and sauté until translucent. Add minced garlic and cook for another minute. Stir in tomato paste and flour, cooking for 2-3 minutes. Pour in red wine, beef broth, and add bay leaves. Return the browned beef to the pot. Bring to a simmer, cover, and cook over low heat for about 2 hours or until the beef is tender. Add sliced carrots and simmer for an additional 30 minutes or until carrots are cooked. Season with salt and black pepper. Garnish with fresh parsley before serving."
+        },
+        {
+          "name": "Croque Monsieur",
+          "ingredients": [
+            "8 slices of bread",
+            "4 slices of ham",
+            "1 cup grated Gruyère cheese",
+            "2 tbsp butter",
+            "2 tbsp all-purpose flour",
+            "1 cup milk",
+            "Salt and nutmeg to taste",
+            "Dijon mustard (optional)"
+          ],
+          "instructions": "Preheat your oven to 350°F (175°C). In a saucepan, melt butter over medium heat. Stir in flour and cook for about 2 minutes until it forms a paste. Gradually whisk in milk, continuously stirring until the sauce thickens. Season with salt and a pinch of nutmeg. Remove from heat. Place 4 slices of bread on a baking sheet. Top each with a slice of ham and a generous amount of grated Gruyère cheese. Place the remaining bread slices on top. Pour the sauce over the sandwiches. Bake in the preheated oven for about 15-20 minutes, or until the sandwiches are golden brown and the cheese is bubbly. Serve with Dijon mustard if desired."
+        }
+      ]
+    },
+    "5": {
+      "name": "Japanese",
+      "colors": [
+        "0xFF00AF91",
+        "0xFFFFCC29"
+      ],
+      "recipes": [
+        {
+          "name": "Sushi Rolls",
+          "ingredients": [
+            "Nori seaweed sheets",
+            "Sushi rice (cooked and seasoned with rice vinegar, sugar, and salt)",
+            "Assorted fillings (e.g., cucumber, avocado, crab sticks, and fish)",
+            "Soy sauce",
+            "Pickled ginger",
+            "Wasabi (optional)"
+          ],
+          "instructions": "Lay a bamboo sushi rolling mat on a clean surface. Place a sheet of plastic wrap on the mat. Lay a sheet of nori seaweed on top of the plastic wrap. Wet your hands with water and grab a handful of sushi rice. Spread it evenly over the nori, leaving a small border at the top. Add your choice of fillings on top of the rice. Lift the bamboo mat with the help of the plastic wrap and start rolling the sushi tightly. Use a little water to seal the nori. Slice the roll into bite-sized pieces and serve with soy sauce, pickled ginger, and wasabi."
+        },
+        {
+          "name": "Teriyaki Chicken",
+          "ingredients": [
+            "2 boneless, skinless chicken breasts",
+            "1/4 cup soy sauce",
+            "1/4 cup sake (or white wine)",
+            "1/4 cup mirin (sweet rice wine)",
+            "2 tbsp sugar",
+            "1 tbsp vegetable oil"
+          ],
+          "instructions": "In a bowl, mix soy sauce, sake, mirin, and sugar to make the teriyaki sauce. Cut chicken breasts into bite-sized pieces. Heat vegetable oil in a pan over medium-high heat. Add chicken pieces and cook until browned. Pour the teriyaki sauce over the chicken and simmer until the sauce thickens and coats the chicken. Serve over steamed rice."
+        },
+        {
+          "name": "Miso Soup",
+          "ingredients": [
+            "4 cups dashi stock (or vegetable broth)",
+            "3 tbsp miso paste",
+            "1/2 cup diced tofu",
+            "2-3 sliced green onions",
+            "1 sheet of nori seaweed, torn into pieces"
+          ],
+          "instructions": "Heat dashi stock in a pot over medium heat. In a small bowl, dissolve miso paste in a small amount of hot stock. Add the dissolved miso paste to the pot and stir. Add diced tofu and simmer until heated through. Serve hot, garnished with sliced green onions and pieces of torn nori seaweed."
+        },
+        {
+          "name": "Miso Soup",
+          "ingredients": [
+            "4 cups dashi stock (or vegetable broth)",
+            "3 tbsp miso paste",
+            "1/2 cup diced tofu",
+            "2-3 sliced green onions",
+            "1 sheet of nori seaweed, torn into pieces"
+          ],
+          "instructions": "Heat dashi stock in a pot over medium heat. In a small bowl, dissolve miso paste in a small amount of hot stock. Add the dissolved miso paste to the pot and stir. Add diced tofu and simmer until heated through. Serve hot, garnished with sliced green onions and pieces of torn nori seaweed."
+        },
+        {
+          "name": "Tempura",
+          "ingredients": [
+            "Assorted vegetables (e.g., sweet potatoes, zucchini, and bell peppers)",
+            "Assorted seafood (e.g., shrimp and fish)",
+            "Tempura batter mix",
+            "Vegetable oil for frying",
+            "Tempura dipping sauce"
+          ],
+          "instructions": "Heat vegetable oil in a deep fryer or a deep pan to 350°F (175°C). Prepare tempura batter according to package instructions. Dip vegetables and seafood in the batter and fry until golden brown and crispy. Drain on paper towels. Serve hot with tempura dipping sauce."
+        },
+        {
+          "name": "Okonomiyaki",
+          "ingredients": [
+            "1 cup all-purpose flour",
+            "1/2 cup dashi stock (or water)",
+            "2 eggs",
+            "2 cups shredded cabbage",
+            "Assorted fillings (e.g., chopped scallions, sliced pork, and seafood)",
+            "Okonomiyaki sauce",
+            "Japanese mayonnaise (optional)",
+            "Aonori seaweed flakes (optional)",
+            "Katsuobushi (bonito flakes, optional)"
+          ],
+          "instructions": "In a bowl, whisk together all-purpose flour, dashi stock, and eggs to make the batter. Add shredded cabbage and your choice of fillings to the batter. Heat a non-stick skillet over medium heat and grease with a little oil. Pour the mixture onto the skillet to form a pancake shape. Cook until both sides are golden brown and the inside is cooked through. Drizzle okonomiyaki sauce and Japanese mayonnaise over the top. Sprinkle with aonori seaweed flakes and katsuobushi if desired. Slice and serve hot."
+        }
+      ]
+    }
+  }
