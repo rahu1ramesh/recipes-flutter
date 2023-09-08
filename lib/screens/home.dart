@@ -1,77 +1,113 @@
+import 'package:cookbook/screens/cuisine.dart';
 import 'package:flutter/material.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
+import 'package:go_router/go_router.dart';
+import '../models/cuisine.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List<Cuisine> cuisineList = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _readJson().then((_) {
+      setState(() {});
+    });
+  }
+
+  Future<void> _readJson() async {
+    final String response = await rootBundle.loadString('data/data.json');
+    final Map<String, dynamic> jsonData = json.decode(response);
+    for (var key in jsonData.keys) {
+      cuisineList.add(Cuisine.fromJson(jsonData[key]));
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text('Tile Screen'),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.format_quote_sharp,
+              color: Colors.white,
+            ),
+            onPressed: () => context.go('/quotes'),
+          )
+        ],
       ),
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2, // 2 tiles in a row
         ),
-        itemCount: 6,
+        itemCount: cuisineList.length,
         itemBuilder: (context, index) {
           return TileWidget(
-            text: 'Tile ${index + 1}',
-            gradientColors: _getGradientColors(index),
+            text: cuisineList[index].name,
+            gradientColors: [
+              Color(int.parse(cuisineList[index].colors[0], radix: 16)),
+              Color(int.parse(cuisineList[index].colors[1], radix: 16))
+            ],
+            cuisine: cuisineList[index],
           );
         },
       ),
     );
-  }
-
-  // Function to generate unique gradient colors for each tile
-  List<Color> _getGradientColors(int index) {
-    switch (index % 6) {
-      case 0:
-        return [Colors.red, const Color.fromARGB(255, 255, 116, 162)];
-      case 1:
-        return [Colors.blue, Colors.lightBlue];
-      case 2:
-        return [Colors.green, const Color.fromARGB(255, 161, 225, 87)];
-      case 3:
-        return [Colors.orange, Colors.deepOrange];
-      case 4:
-        return [Colors.purple, Colors.deepPurple];
-      case 5:
-        return [Colors.teal, Colors.cyan];
-      default:
-        return [Colors.black, Colors.grey];
-    }
   }
 }
 
 class TileWidget extends StatelessWidget {
   final String text;
   final List<Color> gradientColors;
+  final Cuisine cuisine;
 
-  TileWidget({super.key, required this.text, required this.gradientColors});
+  const TileWidget({
+    super.key,
+    required this.text,
+    required this.gradientColors,
+    required this.cuisine,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      elevation: 5,
-      margin: const EdgeInsets.all(10),
-      child: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: gradientColors,
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+    return InkWell(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => CuisineScreen(
+            cuisine: cuisine,
           ),
         ),
-        child: Center(
-          child: Text(
-            text,
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+      ),
+      child: Card(
+        elevation: 5,
+        margin: const EdgeInsets.all(10),
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: gradientColors,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Center(
+            child: Text(
+              text,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),

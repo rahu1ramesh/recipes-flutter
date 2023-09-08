@@ -2,8 +2,8 @@
     "0": {
       "name": "Italian",
       "colors": [
-        "0xFF0E21A0",
-        "0xFFEC53B0"
+        "FF0072FF",
+        "FF00C6FF"
       ],
       "recipes": [
         {
@@ -92,8 +92,8 @@
     "1": {
       "name": "Chinese",
       "colors": [
-        "0xFF191D88",
-        "0xFF337CCF"
+        "FF8A2BE2",
+        "FFC71585"
       ],
       "recipes": [
         {
@@ -200,8 +200,8 @@
     "2": {
       "name": "Mexican",
       "colors": [
-        "0xFFC70039",
-        "0xFFF8DE22"
+        "FF00B09B",
+        "FF96C93D"
       ],
       "recipes": [
         {
@@ -293,8 +293,8 @@
     "3": {
       "name": "Indian",
       "colors": [
-        "0xFF060047",
-        "0xFFFF5F9E"
+        "FFFF6B6B",
+        "FFFF0000"
       ],
       "recipes": [
         {
@@ -395,8 +395,8 @@
     "4": {
       "name": "French",
       "colors": [
-        "0xFF5800FF",
-        "0xFF72FFFF"
+        "FFFF7F00",
+        "FFFFAC12"
       ],
       "recipes": [
         {
@@ -499,8 +499,8 @@
     "5": {
       "name": "Japanese",
       "colors": [
-        "0xFF00AF91",
-        "0xFFFFCC29"
+        "FF757575",
+        "FFC9C9C9"
       ],
       "recipes": [
         {
