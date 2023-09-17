@@ -1,5 +1,5 @@
 import 'package:cookbook/models/cookbook.dart';
-import 'package:cookbook/widgets/recipe_tile.dart';
+import 'package:cookbook/widgets/cuisine_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         itemCount: CookBook.cuisines.length,
         itemBuilder: (context, index) {
-          return RecipeTile(
+          return CuisineTile(
             gradientColors: [
               Color(int.parse(CookBook.cuisines[index].colors[0], radix: 16)),
               Color(int.parse(CookBook.cuisines[index].colors[1], radix: 16))

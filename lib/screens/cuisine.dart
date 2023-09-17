@@ -1,5 +1,5 @@
 import 'package:cookbook/models/cuisine.dart';
-import 'package:cookbook/screens/recipe.dart';
+import 'package:cookbook/widgets/recipe_tile.dart';
 import 'package:flutter/material.dart';
 
 class CuisineScreen extends StatelessWidget {
@@ -23,30 +23,7 @@ class CuisineScreen extends StatelessWidget {
         itemCount: cuisine.recipes.length,
         itemBuilder: (context, index) {
           final recipe = cuisine.recipes[index];
-          return Padding(
-            padding:
-                const EdgeInsets.symmetric(vertical: 0.0, horizontal: 20.0),
-            child: Card(
-              color: Colors.white,
-              child: ListTile(
-                leading:
-                    const Icon(Icons.restaurant, color: Colors.lightBlueAccent),
-                title: Text(recipe.name),
-                trailing: const Icon(
-                  Icons.arrow_forward_ios,
-                  color: Colors.lightBlueAccent,
-                ),
-                onTap: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => RecipeScreen(
-                      recipe: recipe,
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          );
+          return RecipeTile(recipe: recipe);
         },
       ),
     );
