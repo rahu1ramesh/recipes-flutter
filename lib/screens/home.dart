@@ -1,8 +1,7 @@
 import 'package:cookbook/models/cookbook.dart';
-import 'package:cookbook/screens/cuisine.dart';
+import 'package:cookbook/widgets/recipe_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../models/cuisine.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -35,12 +34,11 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, // 2 tiles in a row
+          crossAxisCount: 2,
         ),
         itemCount: CookBook.cuisines.length,
         itemBuilder: (context, index) {
-          return TileWidget(
-            text: CookBook.cuisines[index].name,
+          return RecipeTile(
             gradientColors: [
               Color(int.parse(CookBook.cuisines[index].colors[0], radix: 16)),
               Color(int.parse(CookBook.cuisines[index].colors[1], radix: 16))
@@ -48,56 +46,6 @@ class _HomeScreenState extends State<HomeScreen> {
             cuisine: CookBook.cuisines[index],
           );
         },
-      ),
-    );
-  }
-}
-
-class TileWidget extends StatelessWidget {
-  final String text;
-  final List<Color> gradientColors;
-  final Cuisine cuisine;
-
-  const TileWidget({
-    super.key,
-    required this.text,
-    required this.gradientColors,
-    required this.cuisine,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => CuisineScreen(
-            cuisine: cuisine,
-          ),
-        ),
-      ),
-      child: Card(
-        elevation: 5,
-        margin: const EdgeInsets.all(10),
-        child: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: gradientColors,
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
-          child: Center(
-            child: Text(
-              text,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ),
       ),
     );
   }
