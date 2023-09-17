@@ -1,6 +1,8 @@
 import 'package:cookbook/models/cuisine.dart';
-import 'package:cookbook/widgets/recipe_tile.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+
+import '../widgets.dart/recipe_tile.dart';
 
 class CuisineScreen extends StatelessWidget {
   const CuisineScreen({super.key, required this.cuisine});
@@ -15,7 +17,7 @@ class CuisineScreen extends StatelessWidget {
             Icons.chevron_left,
             size: 36,
           ),
-          onPressed: () => Navigator.of(context).pop(),
+          onPressed: () => context.pop(),
         ),
       ),
       body: ListView.builder(

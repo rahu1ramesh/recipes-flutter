@@ -1,7 +1,8 @@
 import 'package:cookbook/models/cookbook.dart';
-import 'package:cookbook/widgets/cuisine_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+
+import '../widgets.dart/cuisine_tile.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
