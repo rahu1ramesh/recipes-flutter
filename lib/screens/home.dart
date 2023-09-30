@@ -24,12 +24,15 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Tile Screen'),
         actions: <Widget>[
-          IconButton(
-            icon: const Icon(
-              Icons.format_quote_sharp,
-              color: Colors.white,
+          Padding(
+            padding: const EdgeInsets.only(right: 20.0),
+            child: IconButton(
+              icon: const Icon(
+                Icons.format_quote_sharp,
+                color: Colors.white,
+              ),
+              onPressed: () => context.go('/quotes'),
             ),
-            onPressed: () => context.go('/quotes'),
           )
         ],
       ),

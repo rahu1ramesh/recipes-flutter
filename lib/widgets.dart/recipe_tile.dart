@@ -12,14 +12,14 @@ class RecipeTile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 20.0),
       child: Card(
-        color: Colors.white,
+        color: Colors.black,
         child: ListTile(
           onTap: () => context.goNamed('recipe', extra: recipe),
-          leading: const Icon(Icons.restaurant, color: Colors.lightBlueAccent),
+          leading: const Icon(Icons.restaurant, color: Colors.purple),
           title: Text(recipe.name),
           trailing: const Icon(
             Icons.arrow_forward_ios,
-            color: Colors.lightBlueAccent,
+            color: Colors.purple,
           ),
         ),
       ),
